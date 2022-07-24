@@ -1,0 +1,400 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+.containernav{
+    background-color: black;
+    padding: 1rem;
+}
+.icon-apple,
+.icon-busqueda,
+.icon-maleta{
+    color: white;
+ 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding:2.6rem;
+    
+    
+}
+nav a:hover{
+    color: grey;
+}
+.icon-apple:hover{
+    color: grey;
+}
+.icon-busqueda:hover{
+    color: grey;
+}
+.icon-maleta:hover{
+    color: grey;
+}
+
+
+
+
+/** Encabezado Iphone 13 pro**/
+.encabezadoiphone{
+    background-color: #121212;
+    padding: 0.5rem;
+   
+
+   
+    
+
+}
+.iphone{
+    color: white;
+    font-family: 'roboto';
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    left: 6rem;
+  
+}
+.descripcion{
+    color: grey;
+    font-size: 0.8rem;
+    position: relative;
+    left: 31rem;
+}
+.especificaciones{
+    color: white;
+    font-size: 0.8rem;
+    position: relative;
+    left: 27rem;
+}
+.comprar{
+    color: white;
+    background-color:  #0071e3;
+    font-size: 0.7rem;
+    position: relative;
+    left: 25rem;
+border-radius:50px;
+border-color: transparent;
+padding:0.3rem 0.6rem;
+cursor: pointer;
+margin: 0 20px;
+}
+.comprar:hover{
+    
+    background-color: #3898EC;
+   
+}
+.texto{
+    text-align: center;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right:2rem;
+    padding-top: 0.5rem;
+}
+.Moritz{
+    
+    cursor: pointer;
+    text-decoration: underline;
+}
+.clonar{
+    
+    cursor: pointer;
+    text-decoration: underline;
+}
+.fondo{
+    background-color: #121212;
+    padding: 2rem;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+
+    
+    
+}
+.fondo::-webkit-scrollbar {
+    width: 2rem;
+}
+.foto{
+    
+    width: 42rem;
+    padding-left: 16rem;
+    
+    margin-top: 8.3rem;
+   
+   
+}
+.container{
+    background-color: black;
+  margin-top: -2rem;
+   width: 74.5rem;
+   position: relative;
+   right:0rem;
+  height: 30.9rem;
+ 
+   
+}
+.foto{
+    clip-path: inset(0 0 73% 0);
+}
+.fondo2{
+    background-color: #202021;
+    padding: 10rem;
+    height: 12rem;
+    
+    
+}
+.container2{
+    background-color: black;
+  margin-top: -15rem;
+   width: 74.7rem;
+   position: relative;
+   right:8.1rem;
+  height: 30rem;
+ 
+   
+}
+.texto2{
+    color: white;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+}
+.texto3{
+    color: grey;
+
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 0rem 3rem;
+    margin-top: -3rem;
+
+}
+.texto4{
+    color: grey;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align:center ;
+
+}
+.discurso{
+    color: white;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 1.6rem;
+    position:relative;
+    left: 12.2em;
+
+}
+.discurso:hover{
+    text-decoration: underline;
+}
+.pelicula{
+    color: white;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 1.6rem;
+    position:relative;
+    left: 15rem;
+
+}
+.pelicula:hover{
+    text-decoration: underline;
+}
+.icon-youtube{
+    color: white;
+    position: fixed;
+    left: 15px;
+    z-index: 100;
+padding-bottom: 50px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 28px;
+    bottom: 13px;
+  background-color: #c02026;
+    font-size: 22px;
+    height: 20px;
+}
+.fondo3{
+   background-color: #121212;
+    padding: 10rem;
+    height: 12rem;
+    width: 58.9rem;
+    position: relative;
+    right:10rem;
+  height: 12rem;
+  margin-top: 2.0rem;
+
+
+}
+.imagenes{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.1rem;
+    margin-top: -10rem;
+    margin-left: -10.7rem;
+    
+}
+.imagenes img{
+    width: 20rem;
+    height: 45rem;
+    
+    
+}
+.fondo4{
+    background-color: #121212;
+ height: 33rem;
+ position: relative;
+ right:10rem;
+ margin-top: 0rem;
+ width: 78.9rem;
+
+    
+}
+.contenedor{
+    display: flex;
+    flex-direction: column(2,1fr);
+    align-items: center;
+    gap: 5.5rem;
+}
+.imagen0 img{
+    width: 41.7rem;
+    height: 29rem;
+    margin-top: 1rem;
+    position: relative;
+ right:-0.5rem;
+}
+.textoo{
+    background-color: black;
+    color: white;
+ position: relative;
+ left: 1.9rem;
+    height: 27.0rem;
+    padding: 20px 20px 20px 20px;
+    width: 26rem;
+    margin-top: 1.1rem;
+
+}
+.textoo h3{
+    padding-top: 10rem;
+    
+}
+h3{
+    font-size: 4.5rem;
+    margin-top:-7rem;
+    position: relative;
+    right: -3rem;
+}
+.dos{
+    font-size: 1.7rem;
+    margin-top:-4rem;
+    position: relative;
+    right: -3rem;
+    color: gray;
+}
+.fondo6{
+    
+    background-color: black;
+    height: 28rem;
+    position: relative;
+    right:10rem;
+    margin-top: 0rem;
+    width: 78.9rem;
+    }
+    .fotitoo{
+        width: 29rem;
+        height: 34rem;
+        position: relative;
+    right:-49.5rem;
+    clip-path: inset(18% 27% 0% 0);
+ margin-top: -10%;
+
+    }
+    .fotito{
+        width: 29rem;
+        height: 33rem;
+        position: relative;
+        left:-27rem;
+        margin-top: -6.5%;
+        clip-path: inset(65% 0 0 0);
+        padding: -15px 10px 10px 10px;
+    }
+    .fotitooo{
+        width: 29rem;
+        height: 33rem;
+        clip-path: inset(0 0 63% 0);
+        margin-top: -28rem;
+        position: relative;
+        left:2.1em;
+    }
+    .textito{
+        font-size: 4rem;
+    margin-top:-34rem;
+    position:absolute;
+    left: 10rem;
+    color: white;
+    font-weight: bold;
+    }
+   .titulo{
+       color: black;
+       font-size: 2.5rem;
+       text-align: center;
+       font-weight: bold;
+       
+   }
+   .containerr{
+       background-color: white;
+   }
+   .ultimo{
+       text-align: center;
+       
+   }
+   .ultimoo{
+       
+       padding: 17px 17px 17px 17px;
+       border-radius:2.0rem;
+       background-color: rgb(202, 201, 201);
+       width: 26rem;
+   }
+   .titulo2{
+    color: black;
+    font-size:3.5rem;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+.muchacho{
+    text-align: center;
+    
+}
+.muchachoo{
+  width: 21rem;
+  
+  
+}
+.link{
+    color: black;
+    font-size:1.5rem;
+    position: relative;
+    right: -30rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.linkk{
+    color: black;
+    font-size:1.5rem;
+    position: relative;
+    right: -30rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
